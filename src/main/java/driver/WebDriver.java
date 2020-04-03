@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class WebDriver {
 	
-	public ChromeDriver webdriver = null;
+	public ChromeDriver webdriver;
 	public DriverConfig config = null;
 	
 	public WebDriver(DriverConfig config) {
@@ -18,10 +18,10 @@ public class WebDriver {
 		options.setExperimentalOption("prefs", this.config.prefs);
 		System.setProperty("webdriver.chrome.driver", this.config.chrome_drive_link);
 		this.webdriver = new ChromeDriver(options);
-		this.login_and_goto_xmlt(this.config.mail, this.config.pass);
+		this.login_and_goto_xmlt(/*this.config.mail, this.config.pass*/);
 	}
 	
-	private void login_and_goto_xmlt(String mail, String password) {
+	private void login_and_goto_xmlt(/*String mail, String password*/) {
 		this.webdriver.get("https://www.facebook.com/groups/xoamulaptrinh/");
 		/*WebElement email = this.webdriver.findElementById("email");
 		WebElement pass = this.webdriver.findElementById("pass");
