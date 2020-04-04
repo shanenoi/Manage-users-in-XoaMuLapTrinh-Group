@@ -12,6 +12,11 @@ thì mình bận vl, học trên lớp và mò thêm lập trình thì còn đ*o
 manage 😆.
 Đây không phải là ngôn ngữ mình hay sử dụng nhiều nên code có hơi dỡ tí.
 
+Trong đây mình có tạo một tài khoảng Facebook bằng mail Yandex để test thử có
+sự khác biệt với việc không cần login hay không (how?? Cause group này public!)
+và mình để có để cả mật khẩu và email trong project luôn...
+Nếu có nhu cầu sử dụng cho chính project của bạn thì `PLEASE DO NOT CHANGE PASSWORD!`
+
 >>> Controller sẽ là nơi thực thi chính, muốn biết nhiều hơn không, tự mò nhé <<<
    
       [!] Chú ý có một file config đường dẫn của webdriver đó nhá [!]
